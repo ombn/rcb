@@ -10,7 +10,7 @@ public class CycloneTester {
 	public static void main(String[] args) {
 
 		try {
-			CycloneDTO cycloneDTO1 = new CycloneDTO("Nisarga", 70, true, 150);					
+			CycloneDTO cycloneDTO1 = new CycloneDTO("Tsunami", 70, true, 150);					
 			CycloneService cycloneService=new CycloneServiceImpl();			
 			cycloneService.validateAndCreate(cycloneDTO1);
 			
